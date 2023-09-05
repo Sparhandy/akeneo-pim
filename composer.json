@@ -1,12 +1,13 @@
 {
-  "name": "spryker-eco/akeneo-pim",
+  "name": "sparhandy/akeneo-pim",
   "type": "library",
   "description": "AkeneoPim module",
   "license": "MIT",
+  "version": "1.0.4",
   "require": {
     "akeneo/api-php-client": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0",
     "php": ">=7.2",
-    "php-http/guzzle6-adapter": "^1.0.0 || ^2.0.0",
+    "php-http/guzzle7-adapter": "^1.0.0",
     "spryker/kernel": "^3.0.0"
   },
   "require-dev": {
@@ -35,5 +36,8 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "replace": {
+    "spryker-eco/akeneo-pim": "1.0.3"
   }
 }
